@@ -1,0 +1,32 @@
+body {
+    font-family: "Audiowide", sans-serif;
+  }
+  html{
+    height: 100%;
+    background: #000;
+    display:flex;
+      }
+      body {
+        margin: auto;
+      }
+      input{
+        font-family:sans-serif;
+        font-size: 30px;
+        text-indent: 15px;
+        background: none;
+        padding: 20px 20px;
+        border: 3px solid rgb(239, 150, 213);
+        border-radius: 10px;
+        outline: none;
+        color: #fff;
+        letter-spacing: 3px;
+        transition: 0.3s;
+      }
+      input:focus{
+        border: 1px solid rgb(253, 138, 222);
+        padding: 25px 25px;
+        box-shadow: 0 0 15px rgb(221, 131, 196), 0 0 75px rgb(243, 147, 209);
+      }
+      input::placeholder{
+    color: #b3b3b3;
+      }
